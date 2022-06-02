@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100;300&family=Oswald:wght@200;300;500;700&display=swap');
+
+$ff-primary: 'Oswald', sans-serif;
+$ff-secondary: 'Montserrat', sans-serif;
+$section-divider: "1rem";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: $ff-secondary;
+  scroll-behavior: smooth;
+  text-align: center;
+  scroll-padding: 30px;
+}
+
+body {
+  background: var(--miniProjects);
+  color: var(--defaultColor);
+  overflow-x: hidden;
+}
+
+.section {
+    margin-bottom: $section-divider;
+    background: red;
+}

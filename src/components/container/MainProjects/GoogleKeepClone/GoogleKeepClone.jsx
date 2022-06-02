@@ -1,6 +1,8 @@
 import React from "react";
 import "./GoogleKeepClone.scss";
 
+import "./GoogleKeepClone.scss";
+
 const GoogleKeepClone = () => {
   return (
     <div className="project main-project-two">

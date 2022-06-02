@@ -7,6 +7,8 @@ import {
   SoundCrash,
 } from "./container";
 
+import "../index.scss";
+
 const MainProjects = () => {
   return (
     <div className="section main-projects">
