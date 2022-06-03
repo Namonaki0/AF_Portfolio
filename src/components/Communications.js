@@ -3,7 +3,6 @@ import React from "react";
 const Communications = () => {
   return (
     <div className="section communication-wrapper">
-      {/* <!--? LOCATION MAP --> */}
       <div className="location-wrapper">
         <iframe
           title="residence"

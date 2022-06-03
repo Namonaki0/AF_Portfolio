@@ -1,9 +1,10 @@
 import React from "react";
-import "./GoogleKeepClone.scss";
+import "./NoteKeep.scss";
+import { SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
 
-import "./GoogleKeepClone.scss";
+const noteKeepImage = require("../../../../assets/notekeep.PNG");
 
-const GoogleKeepClone = () => {
+const NoteKeep = () => {
   return (
     <div className="project main-project-two">
       <div className="image-wrapper">
@@ -14,7 +15,7 @@ const GoogleKeepClone = () => {
           rel="noreferrer"
         >
           <span className="main-project-span">EXPLORE</span>
-          <img src="./assets/google-keep-clone.PNG" alt="Google keep clone " />
+          <img src={noteKeepImage} alt="Google keep clone " />
         </a>
       </div>
 
@@ -22,14 +23,14 @@ const GoogleKeepClone = () => {
         <h2 className="main-project-title">notekeep</h2>
         <p>note keeping website</p>
         <span> local storage | add, edit & delete functionality </span>
-        {/* <div className="project-technologies">
-              <i className="fab fa-html5" title="HTML"></i>
-              <i className="fab fa-css3-alt" title="CSS"></i>
-              <i className="fab fa-js" title="Javascript"></i>
-            </div> */}
+        <div className="project-technologies">
+          <SiHtml5 />
+          <SiCss3 />
+          <SiJavascript />
+        </div>
       </div>
     </div>
   );
 };
 
-export default GoogleKeepClone;
+export default NoteKeep;

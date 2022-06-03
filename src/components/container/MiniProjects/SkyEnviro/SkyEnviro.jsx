@@ -1,5 +1,7 @@
 import React from "react";
 
+const skyEnviroImage = require("../../../../assets/skyenviro.PNG");
+
 const SkyEnviro = () => {
   return (
     <div className="mini-project mini-project-four">
@@ -9,10 +11,7 @@ const SkyEnviro = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img
-            src="./projectPictures/skyenviro.PNG"
-            alt="skyenviro weather app"
-          />
+          <img src={skyEnviroImage} alt="skyenviro weather app" />
           <span className="knockout-text">skyenviro</span>
         </a>
       </div>

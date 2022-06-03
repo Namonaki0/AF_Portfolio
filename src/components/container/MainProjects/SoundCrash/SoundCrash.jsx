@@ -1,5 +1,15 @@
 import React from "react";
 import "./SoundCrash.scss";
+import {
+  SiHtml5,
+  SiCss3,
+  SiSass,
+  SiJavascript,
+  SiFirebase,
+  SiMailchimp,
+} from "react-icons/si";
+
+const soundCrashImage = require("../../../../assets/soundcrash.PNG");
 
 const SoundCrash = () => {
   return (
@@ -12,7 +22,7 @@ const SoundCrash = () => {
           rel="noreferrer"
         >
           <span className="main-project-span">EXPLORE</span>
-          <img src="./assets/soundcrash.PNG" alt="sound crash " />
+          <img src={soundCrashImage} alt="sound crash " />
         </a>
       </div>
 
@@ -23,13 +33,14 @@ const SoundCrash = () => {
           Integrated music player | Artist touring schedule search |
           Subscription service
         </span>
-        {/* <div className="project-technologies">
-              <i className="fab fa-html5" title="HTML"></i>
-              <i className="fab fa-css3-alt" title="CSS"></i>
-              <i className="fab fa-sass" title="Sass/Scss"></i>
-              <i className="fab fa-js" title="Javascript"></i>
-              <i className="fab fa-mailchimp" title="Mailchimp"></i>
-            </div> */}
+        <div className="project-technologies">
+          <SiHtml5 />
+          <SiCss3 />
+          <SiSass />
+          <SiJavascript />
+          <SiFirebase />
+          <SiMailchimp />
+        </div>
       </div>
     </div>
   );

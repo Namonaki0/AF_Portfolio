@@ -1,5 +1,7 @@
 import React from "react";
 
+const photoGenerationImage = require("../../../../assets/photogeneration.PNG");
+
 const PhotoGeneration = () => {
   return (
     <div className="mini-project mini-project-one">
@@ -9,10 +11,7 @@ const PhotoGeneration = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img
-            src="./projectPictures/photo-generation.PNG"
-            alt="photo_generation"
-          />
+          <img src={photoGenerationImage} alt="photo_generation" />
           <span className="knockout-text">Photo Generation</span>
         </a>
       </div>

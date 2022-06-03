@@ -1,10 +1,17 @@
+import { SiLinkedin, SiGithub } from "react-icons/si";
+import { BsEnvelope } from "react-icons/bs";
+import { IoMdQuote } from "react-icons/io";
+import { ImMobile2 } from "react-icons/im";
+
+const profilePicture = require("../assets/profilepicture.JPG");
+
 const Profile = () => {
   return (
     <section className="profile">
       <div className="font-awesome-icon"></div>
       <div className="profile-wrapper">
         <div className="profile-pic-wrapper">
-          <img src="./assets/profile-picture.JPG" alt="profile" />
+          <img src={profilePicture} alt="profile" />
         </div>
         <div className="profile-main-details">
           <p className="name">Andre Ferreira</p>
@@ -12,11 +19,11 @@ const Profile = () => {
           <div className="contact-wrapper">
             <div className="contact">
               <div className="email-wrapper">
-                <i className="far fa-envelope"></i>
+                <BsEnvelope />
                 <p className="email">andreferreira@live.co.uk</p>
               </div>
               <div className="phone-wrapper">
-                <i className="fas fa-mobile-alt"></i>
+                <ImMobile2 />
                 <p className="phone-number">07523039428</p>
               </div>
             </div>
@@ -27,7 +34,7 @@ const Profile = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fab fa-github"></i>
+                <SiGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/andre-ferreira-37835b53/"
@@ -35,15 +42,16 @@ const Profile = () => {
                 rel="noreferrer"
                 className="linkedin"
               >
-                <i className="fab fa-linkedin"></i>
+                <SiLinkedin />
               </a>
             </div>
           </div>
           <blockquote className="profile-description">
-            <i className="fas fa-quote-left"></i>Learning Web Development every
-            day, always eager to learn new tech and constantly working hard.
-            Creativity and problem-solving is paramount.
-            <i className="fas fa-quote-right"></i>
+            <IoMdQuote />
+            Learning Web Development every day, always eager to learn new tech
+            and constantly working hard. Creativity and problem-solving is
+            paramount.
+            <IoMdQuote />
           </blockquote>
         </div>
       </div>

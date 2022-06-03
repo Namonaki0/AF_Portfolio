@@ -1,5 +1,7 @@
 import React from "react";
 
+const beatMakerImage = require("../../../../assets/beatmaker.PNG");
+
 const BeatMaker = () => {
   return (
     <div className="mini-project mini-project-two">
@@ -9,7 +11,7 @@ const BeatMaker = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src="./projectPictures/beatmaker.PNG" alt="beatmaker project" />
+          <img src={beatMakerImage} alt="beatmaker project" />
           <span className="knockout-text">Beat Maker</span>
         </a>
       </div>

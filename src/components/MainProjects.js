@@ -1,11 +1,6 @@
 import React from "react";
 
-import {
-  MovieLibrary,
-  SmartCourse,
-  GoogleKeepClone,
-  SoundCrash,
-} from "./container";
+import { MovieLibrary, SmartCourse, NoteKeep, SoundCrash } from "./container";
 
 import "../index.scss";
 
@@ -17,7 +12,7 @@ const MainProjects = () => {
       <div className="inner-main-projects">
         <MovieLibrary />
         <SmartCourse />
-        <GoogleKeepClone />
+        <NoteKeep />
         <SoundCrash />
       </div>
     </div>

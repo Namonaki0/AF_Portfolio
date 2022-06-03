@@ -18,9 +18,4 @@ body {
   color: var(--defaultColor);
   overflow-x: hidden;
 }
-
-.section {
-  margin-bottom: "1rem";
-  background: red;
-}
 /*# sourceMappingURL=index.css.map */

@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,UAAU,EAAE,OAAO;CACtB",
     "sources": [
-        "GoogleKeepClone.scss"
+        "NoteKeep.scss"
     ],
     "names": [],
-    "file": "GoogleKeepClone.css"
+    "file": "NoteKeep.css"
 }

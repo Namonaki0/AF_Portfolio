@@ -1,5 +1,14 @@
 import React from "react";
 import "./SmartCourse.scss";
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiFirebase,
+  SiMailchimp,
+} from "react-icons/si";
+
+const smartCourseImage = require("../../../../assets/smartcourse.PNG");
 
 const SmartCourse = () => {
   return (
@@ -12,7 +21,7 @@ const SmartCourse = () => {
           rel="noreferrer"
         >
           <span className="main-project-span">EXPLORE</span>
-          <img src="./assets/smartcourse.PNG" alt="smart course " />
+          <img src={smartCourseImage} alt="smart course " />
         </a>
       </div>
 
@@ -22,15 +31,13 @@ const SmartCourse = () => {
         <span>
           Login system | Course filter function | Subscription service
         </span>
-        {/* <div className="project-technologies">
-              <i className="fab fa-html5" title="HTML"></i>
-              <i className="fab fa-css3-alt" title="CSS"></i>
-              <i className="fab fa-js" title="Javascript"></i>
-              <i className="fab fa-mailchimp" title="Mailchimp"></i>
-              <div className="firebase-wrapper" title="Firebase">
-                <img src="/assets/firebase.png" alt="firebase icon" />
-              </div>
-            </div> */}
+        <div className="project-technologies">
+          <SiHtml5 />
+          <SiCss3 />
+          <SiJavascript />
+          <SiFirebase />
+          <SiMailchimp />
+        </div>
       </div>
     </div>
   );
