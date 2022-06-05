@@ -1,5 +1,6 @@
 import {
   SiHtml5,
+  SiReact,
   SiCss3,
   SiSass,
   SiJavascript,
@@ -19,8 +20,8 @@ const MainProjectsInfo = () => {
       description: "your personal desktop movie database implemented in React",
       features:
         "Browse through movie library | Comment about your favorite movies | Authentication",
-      technologies: SiHtml5,
-      SiCss3,
+      technologies: SiReact,
+      SiSass,
       SiJavascript,
       SiFirebase,
       url: null,

@@ -1,6 +1,6 @@
 import React from "react";
 import "./MovieLibrary.scss";
-import { SiHtml5, SiCss3, SiJavascript, SiFirebase } from "react-icons/si";
+import { SiReact, SiSass, SiJavascript, SiFirebase } from "react-icons/si";
 
 const movieLibraryImage = require("../../../../assets/movielibrary.jpg");
 
@@ -27,8 +27,8 @@ const MovieLibrary = () => {
           Authentication
         </span>
         <div className="project-technologies">
-          <SiHtml5 />
-          <SiCss3 />
+          <SiReact />
+          <SiSass />
           <SiJavascript />
           <SiFirebase />
         </div>
